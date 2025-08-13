@@ -1,0 +1,61 @@
+body {
+    background-image: url('Grid.png');
+    background-repeat: repeat;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: #efcaa3;
+    align-items: center;
+}
+
+.top-bar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(223, 171, 93);
+    display: flex;     
+    align-items: center;   
+    gap: 10px;         
+    padding: 0 20px;       
+}
+
+.top-BTN{
+    border: none;
+    border-radius: 5px;
+    background-color: #eebd85;
+    color: rgb(253, 236, 198);
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.2s;
+}
+
+.top-BTN:active{
+    filter: brightness(100%);
+    transform: scale(1.10);
+}
+
+.top-BTN:hover{
+    background-color: #aa9c8c;
+}
+
+.gamewidget{
+    margin-top: 10px;
+}
+
+
+.header{
+    font-size: 100px;
+}
+
+
+.DefText{
+    margin-top: 300px;
+}
+
+
+.steamwidget{
+    margin-top: 50px;
+}
+
+.gameheader{
+   font-size: 100px; 
+}
+
