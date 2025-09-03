@@ -1,0 +1,97 @@
+body {
+    background: radial-gradient(circle, #383838, #151515);
+    text-align: center;
+    overflow-x: hidden;
+    background-color: #141414;
+}
+
+.top-bar{
+    width: 100%;
+    height: 60px;
+    display: flex;     
+    align-items: center;   
+    gap: 10px;         
+    padding: 0 20px;       
+}
+
+
+
+.top-BTN:hover{
+    color: #444444;
+    font-size: 40px;
+}
+
+.logo{
+    transition: 0.1s;
+    position:fixed; top:0; right:0; margin:5px;
+}
+
+.logo:hover{
+    filter: brightness(105%);
+}
+
+
+
+.top-BTN{
+    border: none;
+    border-radius: 5px;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.2s;
+}
+
+.gametitle{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.gamelogo{
+    border-radius: 5px;
+    transition: 0.2s;
+    align-items: center;
+}
+.gamelogo:hover{
+    transform: scale(1.1);
+    filter: brightness(110%);
+}
+
+
+button{
+    border-radius: 5px;
+    background-color: #686868;
+    color: rgb(201, 201, 201);
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+    transition: 0.2s; 
+}
+
+button:hover{
+    color: #ffffff;
+    font-size: 40px; 
+}
+
+.endbtn{
+    border-radius: 5px;
+    background-color: #929292;
+    color: rgb(201, 201, 201);
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transform: scale(1.2);
+    transition: 0.2s; 
+}
+
+.endbtn:hover{
+    color: #ffffff;
+    font-size: 40px;  
+}
+
+.GameBlock{
+    margin-top: 100px;
+}
