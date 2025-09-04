@@ -1,0 +1,197 @@
+body{
+    background-color: #1a1a1a;
+    background-repeat: no-repeat;
+    background-image: url("UniversialSA/background.png");
+    align-items: center;
+    text-align: center;
+}
+
+.NavBTN{
+    background: transparent;
+    border: none;
+    color: rgb(221, 221, 221);
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+
+    text-decoration: none;
+}
+
+.NavBTN:hover{
+    color: rgb(161, 161, 161);
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav{
+    position: relative;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.header{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 350px;
+
+    animation: appear 5s linear;
+    animation-range: entry 0% cover 40%;
+    animation-timeline: view();
+}
+
+.finalheader{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 350px;
+    margin-bottom: 500px;
+
+    animation: appear 5s linear;
+    animation-range: entry 0% cover 40%;
+    animation-timeline: view();  
+}
+
+.first-desc{
+    margin-top: 1000px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+
+    animation: appear 5s linear;
+    animation-range: entry 0% cover 40%;
+    animation-timeline: view();
+}
+
+.desc{
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+
+    animation: appear 5s linear;
+    animation-range: entry 0% cover 40%;
+    animation-timeline: view();
+}
+
+.finaldesc{
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 750px;
+
+    animation: appear 5s linear;
+    animation-range: entry 0% cover 40%;
+    animation-timeline: view();
+}
+
+
+.btn{
+    border: none;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: #292929;
+    font-family: sans-serif;
+    align-self: center;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 25px;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background-color: #363636;
+}
+
+.FoodFacilityLogo{
+    animation: appear 5s linear;
+    animation-range: entry 0% cover 40%;
+    animation-timeline: view();
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        clip-path: inset(100% 100% 0
+        0);
+    }
+    to{
+        opacity: 1;
+        clip-path: inset(0 0 0 0)
+    }
+}
+
+
+
+
+
+
+
+
+
+.DropBTN{
+    background: transparent;
+    border: none;
+    color: rgb(221, 221, 221);
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.dropdown{
+    position:relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display:none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
