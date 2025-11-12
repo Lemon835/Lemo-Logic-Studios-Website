@@ -1,0 +1,117 @@
+body{
+    background-image: url("Background.png");
+    background-attachment: fixed;
+
+}
+
+.title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+    font-size: 70px;
+    color: rgb(255, 255, 0);
+    margin-top: 80px;
+}
+
+.desc{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+
+.btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgb(229, 255, 0);
+    color: rgb(255, 255, 255);
+    border-style:solid;
+    border-radius: 10px;
+    font-size: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(105, 126, 4);
+}
+
+
+.header{
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
+.games{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
+.game{
+    margin-top: 50px;
+}
+
+.logo{
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    filter: brightness(120%);
+}
+
+.gametitle{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.gambtn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgb(229, 255, 0);
+    color: rgb(255, 255, 255);
+    border-style:solid;
+    border-radius: 10px;
+    font-size: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.gambtn:hover{
+    background-color: rgb(105, 126, 4);
+}
+
+.gametext{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 550px;
+}
+
+.footer{
+    background: #3d3d3d;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.socialbtn{
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.email{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
