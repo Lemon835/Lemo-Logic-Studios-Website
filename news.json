@@ -1,0 +1,9 @@
+{
+  "news": [
+    {
+      "title": "New Update!",
+      "content": "Example news.",
+      "date": "2025-11-12"
+    }
+  ]
+}
